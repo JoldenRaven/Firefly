@@ -1,7 +1,7 @@
 ---
-title: 李晋瑞的示例文档
+title: 李的示例文档
 published: 2026-10-06
-tags: [Markdown, 博客, 演示, 李晋瑞]
+tags: [Markdown, 博客, 演示, 李]
 category: 演示
 draft: false
 slug: draft
@@ -9,7 +9,7 @@ slug: draft
 
 # 这篇文章是草稿
 
-这篇文章目前处于发布状态，已经发布。因此，对普通读者可见。内容仍在进行中，需要进一步学习，可能需要进一步编辑和审查。
+这篇文章需要测试
 
 当文章准备发布时，您可以在 Frontmatter 中将 "draft" 字段更新为 "false"：
 
