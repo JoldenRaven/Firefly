@@ -1,8 +1,8 @@
 ---
-title: 草稿示例
-published: 1970-01-01
-tags: [Markdown, 博客, 演示]
-category: 文章示例
+title: 李晋瑞的示例文档
+published: 2026-10-06
+tags: [Markdown, 博客, 演示, 李晋瑞]
+category: 演示
 draft: false
 slug: draft
 ---
