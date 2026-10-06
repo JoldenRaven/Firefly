@@ -11,9 +11,9 @@ const pages = resolvePageToggles({
 	// ── 社交 (Social) ──────────────────────────────────
 
 	// 友链页面开关
-	friends: true,
+	friends: false,
 	// 留言板页面开关，需要配置评论系统
-	guestbook: true,
+	guestbook: false,
 
 	// ── 我的 (My) ──────────────────────────────────
 
@@ -37,7 +37,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -48,11 +48,11 @@ export const siteConfig: SiteConfig = {
 	subtitle: "GR",
 
 	// 站点 URL
-	site_url: "https://Raven.cuteleaf.cn",
+	site_url: "https://www.jinraven.top",
 
 	// 站点描述
 	description:
-		"测试。",
+		"没有留下什么介绍",
 
 	// 站点关键词
 	keywords: [
@@ -60,15 +60,15 @@ export const siteConfig: SiteConfig = {
 		"Fuwari",
 		"Astro",
 		"ACGN",
-		"博客",
-		"技术博客",
+		"小tips",
+		"坑与反思",
 		"静态博客",
 	],
 
 	// 主题色
 	themeColor: {
 		// 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		hue: 165,
+		hue: 190,
 		// 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
 		defaultMode: "system",
 	},
@@ -76,14 +76,14 @@ export const siteConfig: SiteConfig = {
 	// 页面整体宽度（单位：rem）
 	// 数值越大可以让页面内容区域更宽
 	// 在使用单侧栏边栏时，建议调低一些宽度以获得更好的视觉效果。
-	pageWidth: 100,
+	pageWidth: 105,
 
 	// 网站Card样式配置
 	card: {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
-		border: false,
+		border: true,
 		// 是否让卡片风格跟随主题色相
-		followTheme: false,
+		followTheme: true,
 	},
 
 	// Favicon 配置
@@ -189,7 +189,7 @@ export const siteConfig: SiteConfig = {
 			// 标签数量，设为 0 则不限制
 			tagCount: 3,
 			// 是否显示字数
-			showWords: false,
+			showWords: true,
 			// 是否显示阅读时间
 			showReadingTime: false,
 		},
@@ -262,7 +262,7 @@ export const siteConfig: SiteConfig = {
 	// ── Bilibili配置 ──────────────────────────────────
 	bilibili: {
 		// 你的 Bilibili 用户 UID
-		uid: "38932988",
+		uid: "689856462",
 	},
 
 	// ── 番组计划bangumi配置 ──────────────────────────────────
